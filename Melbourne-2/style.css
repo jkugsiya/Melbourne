@@ -11,7 +11,9 @@ div
 * 
 {
     margin: 0;
+    padding:0;
 }
+
 
 .tagName
 {
@@ -27,7 +29,9 @@ div
 
 .button {
     background-color: #b82a2a;
-    border: none;
+    border-radius: 10px;
+    border: 2px solid #F2AA4CFF;
+    padding: 20px; 
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -51,10 +55,27 @@ form
 
 .mainHeading
 {
-    margin-top: 50px;   
+    margin-top: 50px; 
+    font-family: 'Alegreya', serif;
+   font-size: 400%;   
 }
 p
 {
     font-size: 25px;
+}
+
+#form1
+{
+    background-color: #F2AA4CFF;
+    border-radius: 25px;
+     border: 2px solid #000000;
+    padding: 20px; 
+
+}
+h4
+{
+    color: #000000;
+    font-family: 'Cairo', sans-serif;
+    font-size: 250%;
 }
 
